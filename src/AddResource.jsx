@@ -150,7 +150,7 @@ const handelChange = (e) => {
 };
 
 const handelValidation = () => {
-  const { title,link,icon,tag,category,desc} = values;
+  const { title,link,icon,category,desc} = values;
   if (title.length < 3) {
     toast.error("Title should be greater than 3 character", toastOptions);
     return false;
@@ -198,7 +198,7 @@ const handleSubmit=async (e)=>{
       <Body>
         <div>
           <ButtonDiv>
-            <img src={arrow} style={{margin:"0px",height:"10px"}}/>
+            <img src={arrow} alt="img" style={{margin:"0px",height:"10px"}}/>
             <button style={{background:"transparent",border:"none",margin:"4px",cursor:"pointer"}} onClick={()=>nav("/")}>  Users</button>
           </ButtonDiv>
           <H1Div>

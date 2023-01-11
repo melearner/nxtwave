@@ -56,14 +56,14 @@ margin:0px 200px;`
 
 function Home() {
   const [currentPage,setCurrentPage] = useState(1)
-  const [postsPerPage,setPostsPerPage] = useState(6)
+  const postsPerPage=6
   const [val,setVal] = useState('')
   const [item,setItem] =useState([])
   const [active,setActive]=useState([true,false,false])
   const [resourses,setResourses]=useState([]);
-  const [error, setError] = useState("");
+ 
   const [isLoading, setIsLoading] = useState(false);
-  const [category,setCategory]=useState("");
+  
   const loadResourses = async () => {
     setIsLoading(true);
     await axios.get(
@@ -73,7 +73,7 @@ function Home() {
         setResourses(response.data)
         setIsLoading(false)
       }).catch(error => {
-        setError("Sorry, something went wrong")
+       
         setIsLoading(false)
       })
   }
