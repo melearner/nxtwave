@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nxtwave/static/css/main.158952b9.css",
-    "main.js": "/nxtwave/static/js/main.54b2066b.js",
+    "main.js": "/nxtwave/static/js/main.ecb84248.js",
     "static/media/workplace.png": "/nxtwave/static/media/workplace.9a9588a7d6c9ffdfee8b.png",
     "index.html": "/nxtwave/index.html",
     "main.158952b9.css.map": "/nxtwave/static/css/main.158952b9.css.map",
-    "main.54b2066b.js.map": "/nxtwave/static/js/main.54b2066b.js.map"
+    "main.ecb84248.js.map": "/nxtwave/static/js/main.ecb84248.js.map"
   },
   "entrypoints": [
     "static/css/main.158952b9.css",
-    "static/js/main.54b2066b.js"
+    "static/js/main.ecb84248.js"
   ]
 }
