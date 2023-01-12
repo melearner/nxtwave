@@ -3,7 +3,7 @@ import React from "react";
 import './App.css'
 import Home from './components/Home'
 import AddResource from "./AddResource";
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import { HashRouters as Router,Routes,Route } from "react-router-dom";
 function App() {
   return (
     <Router>
