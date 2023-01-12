@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route exact path="/nxtwave" element={<Home />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/add" element={<AddResource />}></Route>
         </Routes>
       </div>
